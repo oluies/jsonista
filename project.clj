@@ -22,13 +22,13 @@
   :profiles {:provided {:dependencies [[org.clojure/clojure "1.10.1"]]}
              :dev {:dependencies [[org.clojure/clojure "1.10.1"]
                                   [jmh-clojure/jmh-clojure "0.4.1"]
-                                  [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.13.2"]
+                                  [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.13.4"]
                                   [cheshire "5.10.2"]
                                   [com.taoensso/nippy "3.1.1"]
                                   [org.clojure/data.json "2.4.0"]
                                   [com.cognitect/transit-clj "1.0.329"]
                                   [org.msgpack/msgpack-core "0.9.1"]
-                                  [org.msgpack/jackson-dataformat-msgpack "0.9.1"
+                                  [org.msgpack/jackson-dataformat-msgpack "0.9.3"
                                    :exclusions [com.fasterxml.jackson.core/jackson-databind]]
                                   [com.clojure-goes-fast/clj-async-profiler "0.5.1"]
                                   [criterium "0.4.6"]]
